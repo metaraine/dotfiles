@@ -2,7 +2,14 @@ Store your dotfiles in a repo and symlink them to your user root.
 
 ## Usage
 
-	gulp setup
+```
+gulp setup
+```
+
+Add new dotfiles to the repo:
+
+1. `cp ~/.zprofile .`
+2. `gulp setup`
 
 ## Gulp Tasks
 <table>
